@@ -18,6 +18,6 @@ To transplant to mobile end, the potential way might be:<br>
 
 **Solution:**
 <br> 
-`1` Get rid of these tensor nodes such as dropout or batch-normalization related stuff, using data pre-processing to replace those functions of generalization;<br>
+`1` Get rid of these tensor nodes such as dropout or batch-normalization related stuff, using data pre-processing to replace those functions for generalization;<br>
 `2` Introducing other framework API in end, caffe2 is a good try, some of them give the pre-trained MobileNet or YOLO stuff, and start with these model and transfer can be great tradeoff;<br>
 `3` Keep patient until opencv or tensorfolw rocks. <br>
